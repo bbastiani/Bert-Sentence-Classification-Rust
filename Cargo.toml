@@ -1,0 +1,12 @@
+[package]
+name = "bert"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tch = "0.10.3"
+tokenizers = "0.13.2"
+thiserror = "1.0.39"
+csv = "1.1"
+kdam = "0.3.0"
+clap = { version = "4.1.8", features = ["derive"] }
