@@ -4,9 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+log = "0.4"
+log4rs = "1.2.0"
 tch = "0.10.3"
 tokenizers = "0.13.2"
 thiserror = "1.0.39"
-csv = "1.1"
 kdam = "0.3.0"
+polars = "0.27.2"
 clap = { version = "4.1.8", features = ["derive"] }
